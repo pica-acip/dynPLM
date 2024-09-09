@@ -4,50 +4,9 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Model" xmi:id="_IaT5kG4AEe-7ucLxEYtFDw" name="OA - PLM core">
-    <packagedElement xmi:type="uml:Package" xmi:id="_Krf5EG4AEe-7ucLxEYtFDw" name="Stakeholders">
-      <packagedElement xmi:type="uml:Actor" xmi:id="_T2lvoG4AEe-7ucLxEYtFDw" name="User"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_X_A9kG4AEe-7ucLxEYtFDw" name="Customer"/>
-      <packagedElement xmi:type="uml:Realization" xmi:id="_i2F00G4AEe-7ucLxEYtFDw" client="_T2lvoG4AEe-7ucLxEYtFDw" supplier="_X_A9kG4AEe-7ucLxEYtFDw"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_j7FuAG4AEe-7ucLxEYtFDw" name="Key User">
-        <generalization xmi:type="uml:Generalization" xmi:id="_qf9JMG4AEe-7ucLxEYtFDw" general="_T2lvoG4AEe-7ucLxEYtFDw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_sHo4sG4AEe-7ucLxEYtFDw" name="Buyer"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_ucTC8G4AEe-7ucLxEYtFDw" name="Project Lead"/>
-      <packagedElement xmi:type="uml:Realization" xmi:id="_xodc8G4AEe-7ucLxEYtFDw" client="_ucTC8G4AEe-7ucLxEYtFDw" supplier="_X_A9kG4AEe-7ucLxEYtFDw"/>
-      <packagedElement xmi:type="uml:Realization" xmi:id="_z-YLcG4AEe-7ucLxEYtFDw" client="_sHo4sG4AEe-7ucLxEYtFDw" supplier="_X_A9kG4AEe-7ucLxEYtFDw"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_46_PYG4AEe-7ucLxEYtFDw" name="Administrator"/>
-      <packagedElement xmi:type="uml:Realization" xmi:id="_9J0AQG4AEe-7ucLxEYtFDw" client="_46_PYG4AEe-7ucLxEYtFDw" supplier="_z-YLcG4AEe-7ucLxEYtFDw"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_-nzoQG4AEe-7ucLxEYtFDw" name="Developer"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_Bi3rMG4BEe-7ucLxEYtFDw" name="PLM Core Developer">
-        <generalization xmi:type="uml:Generalization" xmi:id="_Mz3eUG4BEe-7ucLxEYtFDw" general="_-nzoQG4AEe-7ucLxEYtFDw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_EqSIEG4BEe-7ucLxEYtFDw" name="AddOn Developer">
-        <generalization xmi:type="uml:Generalization" xmi:id="_PnA7YG4BEe-7ucLxEYtFDw" general="_-nzoQG4AEe-7ucLxEYtFDw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_RjWFMG4BEe-7ucLxEYtFDw" name="Distributor"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_WjHK0G4BEe-7ucLxEYtFDw" name="Marketing"/>
-      <packagedElement xmi:type="uml:Realization" xmi:id="_Y9BBcG4BEe-7ucLxEYtFDw" client="_WjHK0G4BEe-7ucLxEYtFDw" supplier="_RjWFMG4BEe-7ucLxEYtFDw"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_ZrOLQG4BEe-7ucLxEYtFDw" name="Seller"/>
-      <packagedElement xmi:type="uml:Realization" xmi:id="_hYy68G4BEe-7ucLxEYtFDw" client="_ZrOLQG4BEe-7ucLxEYtFDw" supplier="_RjWFMG4BEe-7ucLxEYtFDw"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_i2FYUG4BEe-7ucLxEYtFDw" name="Trainer"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_-Kw1AG4CEe-7ucLxEYtFDw" client="_46_PYG4AEe-7ucLxEYtFDw" supplier="_ZgUtYG4CEe-7ucLxEYtFDw"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_HR08oG4CEe-7ucLxEYtFDw" name="Use Cases">
-      <packagedElement xmi:type="uml:Package" xmi:id="_KaevoG4CEe-7ucLxEYtFDw" name="Customer">
-        <packagedElement xmi:type="uml:Package" xmi:id="_Nx0e4G4CEe-7ucLxEYtFDw" name="Administrator">
-          <ownedRule xmi:type="uml:Constraint" xmi:id="_EMAlwG4DEe-7ucLxEYtFDw" name="Availibility" constrainedElement="_ZgUtYG4CEe-7ucLxEYtFDw">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_EMDpEG4DEe-7ucLxEYtFDw" name="Availability">
-              <language>Natural language</language>
-              <body>Availibility features shall achieve at least 99.999% availability.</body>
-            </specification>
-          </ownedRule>
-          <packagedElement xmi:type="uml:UseCase" xmi:id="_ZgUtYG4CEe-7ucLxEYtFDw" name="Availability">
-            <ownedComment xmi:type="uml:Comment" xmi:id="_uJo6wG4CEe-7ucLxEYtFDw" annotatedElement="_ZgUtYG4CEe-7ucLxEYtFDw">
-              <body>As administrator I want to get high availibility features to ensure continious operation in my organization.</body>
-            </ownedComment>
-          </packagedElement>
-        </packagedElement>
-      </packagedElement>
+    <packagedElement xmi:type="uml:Package" href="OA___PLM_core___Stakeholders.uml#_Krf5EG4AEe-7ucLxEYtFDw"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_HR08oG4CEe-7ucLxEYtFDw" name="OA - PLM core - Use Cases">
+      <packagedElement xmi:type="uml:Package" href="OA___PLM_core___Customer.uml#_KaevoG4CEe-7ucLxEYtFDw"/>
     </packagedElement>
   </packagedElement>
 </uml:Model>

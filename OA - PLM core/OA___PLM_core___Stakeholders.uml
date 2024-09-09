@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Krf5EG4AEe-7ucLxEYtFDw" name="OA - PLM core - Stakeholders">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_T2lvoG4AEe-7ucLxEYtFDw" name="User"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_X_A9kG4AEe-7ucLxEYtFDw" name="Customer"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_i2F00G4AEe-7ucLxEYtFDw" client="_T2lvoG4AEe-7ucLxEYtFDw" supplier="_X_A9kG4AEe-7ucLxEYtFDw"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_j7FuAG4AEe-7ucLxEYtFDw" name="Key User">
+    <generalization xmi:type="uml:Generalization" xmi:id="_qf9JMG4AEe-7ucLxEYtFDw" general="_T2lvoG4AEe-7ucLxEYtFDw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_sHo4sG4AEe-7ucLxEYtFDw" name="Buyer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ucTC8G4AEe-7ucLxEYtFDw" name="Project Lead"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_xodc8G4AEe-7ucLxEYtFDw" client="_ucTC8G4AEe-7ucLxEYtFDw" supplier="_X_A9kG4AEe-7ucLxEYtFDw"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_z-YLcG4AEe-7ucLxEYtFDw" client="_sHo4sG4AEe-7ucLxEYtFDw" supplier="_X_A9kG4AEe-7ucLxEYtFDw"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_46_PYG4AEe-7ucLxEYtFDw" name="Administrator"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_9J0AQG4AEe-7ucLxEYtFDw" client="_46_PYG4AEe-7ucLxEYtFDw" supplier="_z-YLcG4AEe-7ucLxEYtFDw"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_-nzoQG4AEe-7ucLxEYtFDw" name="Developer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Bi3rMG4BEe-7ucLxEYtFDw" name="PLM Core Developer">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Mz3eUG4BEe-7ucLxEYtFDw" general="_-nzoQG4AEe-7ucLxEYtFDw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_EqSIEG4BEe-7ucLxEYtFDw" name="AddOn Developer">
+    <generalization xmi:type="uml:Generalization" xmi:id="_PnA7YG4BEe-7ucLxEYtFDw" general="_-nzoQG4AEe-7ucLxEYtFDw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_RjWFMG4BEe-7ucLxEYtFDw" name="Distributor"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_WjHK0G4BEe-7ucLxEYtFDw" name="Marketing"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_Y9BBcG4BEe-7ucLxEYtFDw" client="_WjHK0G4BEe-7ucLxEYtFDw" supplier="_RjWFMG4BEe-7ucLxEYtFDw"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ZrOLQG4BEe-7ucLxEYtFDw" name="Seller"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_hYy68G4BEe-7ucLxEYtFDw" client="_ZrOLQG4BEe-7ucLxEYtFDw" supplier="_RjWFMG4BEe-7ucLxEYtFDw"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_i2FYUG4BEe-7ucLxEYtFDw" name="Trainer"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_-Kw1AG4CEe-7ucLxEYtFDw" client="_46_PYG4AEe-7ucLxEYtFDw">
+    <supplier xmi:type="uml:UseCase" href="OA___PLM_core___Customer__Administrator.uml#_ZgUtYG4CEe-7ucLxEYtFDw"/>
+  </packagedElement>
+</uml:Package>

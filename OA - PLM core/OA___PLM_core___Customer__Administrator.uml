@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Nx0e4G4CEe-7ucLxEYtFDw" name="OA - PLM core - Customer -Administrator">
+  <ownedRule xmi:type="uml:Constraint" xmi:id="_EMAlwG4DEe-7ucLxEYtFDw" name="Availibility" constrainedElement="_ZgUtYG4CEe-7ucLxEYtFDw">
+    <specification xmi:type="uml:OpaqueExpression" xmi:id="_EMDpEG4DEe-7ucLxEYtFDw" name="Availability">
+      <language>Natural language</language>
+      <body>Availibility features shall achieve at least 99.999% availability.</body>
+    </specification>
+  </ownedRule>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ZgUtYG4CEe-7ucLxEYtFDw" name="Availability">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_uJo6wG4CEe-7ucLxEYtFDw" annotatedElement="_ZgUtYG4CEe-7ucLxEYtFDw">
+      <body>As administrator I want to get high availibility features to ensure continious operation in my organization.</body>
+    </ownedComment>
+  </packagedElement>
+</uml:Package>
