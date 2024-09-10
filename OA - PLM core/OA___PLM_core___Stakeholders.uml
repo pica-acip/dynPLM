@@ -43,4 +43,13 @@
   <packagedElement xmi:type="uml:Dependency" xmi:id="_Nmbb0G9CEe-TsJ3JgEISCg" client="_i2FYUG4BEe-7ucLxEYtFDw" supplier="_X_A9kG4AEe-7ucLxEYtFDw"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_nvrKsG9EEe-TsJ3JgEISCg" name="Mentor"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_qwyLQG9EEe-TsJ3JgEISCg" client="_nvrKsG9EEe-TsJ3JgEISCg" supplier="_-hPlYG9BEe-TsJ3JgEISCg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_zqpt8G9PEe-InYsjmLFfsA" client="_-nzoQG4AEe-7ucLxEYtFDw">
+    <supplier xmi:type="uml:UseCase" href="OA___PLM_core___Maker___Developer.uml#_sgRK4G9PEe-InYsjmLFfsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_W4Dk8G9SEe-InYsjmLFfsA" client="_-nzoQG4AEe-7ucLxEYtFDw">
+    <supplier xmi:type="uml:UseCase" href="OA___PLM_core___Maker___Developer.uml#_Q6rnkG9SEe-InYsjmLFfsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_cI2JIG9SEe-InYsjmLFfsA" client="_-nzoQG4AEe-7ucLxEYtFDw">
+    <supplier xmi:type="uml:UseCase" href="OA___PLM_core___Maker___Developer.uml#_YDKtMG9SEe-InYsjmLFfsA"/>
+  </packagedElement>
 </uml:Package>

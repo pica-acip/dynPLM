@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_v-gloG9KEe-TsJ3JgEISCg" name="OA - PLM core - Maker - Developer">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_1m6mUG9PEe-InYsjmLFfsA" annotatedElement="_sgRK4G9PEe-InYsjmLFfsA">
+    <body>As a developer I want a comprehensive documentation to be able to understand concepts.</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_jevYoG9SEe-InYsjmLFfsA" annotatedElement="_Q6rnkG9SEe-InYsjmLFfsA">
+    <body>As a developer I want a sound development environment to be able to develop effectively.</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_IOZXcG9TEe-InYsjmLFfsA" annotatedElement="_YDKtMG9SEe-InYsjmLFfsA">
+    <body>As a developer I want a forum to ask questions and discuss improvements.</body>
+  </ownedComment>
   <packagedElement xmi:type="uml:Package" xmi:id="_88SDoG9KEe-TsJ3JgEISCg" name="OA - PLM core - Maker - Developer - PLM core developer"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_Ege04G9LEe-TsJ3JgEISCg" name="OA - PLM core - Maker - Developer - AddOn Developer"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sgRK4G9PEe-InYsjmLFfsA" name="Documentation" isAbstract="true"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_CEceAG9QEe-InYsjmLFfsA" name="Principles of Architecture"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JJhDQG9QEe-InYsjmLFfsA" name="Coding Guidelines"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_QgAIoG9QEe-InYsjmLFfsA" name="Architecture Documentation"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_URrDcG9QEe-InYsjmLFfsA" name="API Documentation"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_aMW5MG9QEe-InYsjmLFfsA" client="_CEceAG9QEe-InYsjmLFfsA" supplier="_sgRK4G9PEe-InYsjmLFfsA"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_cPq0wG9QEe-InYsjmLFfsA" client="_URrDcG9QEe-InYsjmLFfsA" supplier="_sgRK4G9PEe-InYsjmLFfsA"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_d_i28G9QEe-InYsjmLFfsA" client="_QgAIoG9QEe-InYsjmLFfsA" supplier="_sgRK4G9PEe-InYsjmLFfsA"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_hF-cYG9QEe-InYsjmLFfsA" client="_JJhDQG9QEe-InYsjmLFfsA" supplier="_sgRK4G9PEe-InYsjmLFfsA"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Q6rnkG9SEe-InYsjmLFfsA" name="Development Environment"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YDKtMG9SEe-InYsjmLFfsA" name="Forum"/>
 </uml:Package>
