@@ -11,7 +11,6 @@
   <packagedElement xmi:type="uml:Realization" xmi:id="_xodc8G4AEe-7ucLxEYtFDw" client="_ucTC8G4AEe-7ucLxEYtFDw" supplier="_X_A9kG4AEe-7ucLxEYtFDw"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_z-YLcG4AEe-7ucLxEYtFDw" client="_sHo4sG4AEe-7ucLxEYtFDw" supplier="_X_A9kG4AEe-7ucLxEYtFDw"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_46_PYG4AEe-7ucLxEYtFDw" name="Administrator"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_9J0AQG4AEe-7ucLxEYtFDw" client="_46_PYG4AEe-7ucLxEYtFDw" supplier="_z-YLcG4AEe-7ucLxEYtFDw"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_-nzoQG4AEe-7ucLxEYtFDw" name="Developer"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_Bi3rMG4BEe-7ucLxEYtFDw" name="PLM Core Developer">
     <generalization xmi:type="uml:Generalization" xmi:id="_Mz3eUG4BEe-7ucLxEYtFDw" general="_-nzoQG4AEe-7ucLxEYtFDw"/>
@@ -28,4 +27,20 @@
   <packagedElement xmi:type="uml:Usage" xmi:id="_-Kw1AG4CEe-7ucLxEYtFDw" client="_46_PYG4AEe-7ucLxEYtFDw">
     <supplier xmi:type="uml:UseCase" href="OA___PLM_core___Customer__Administrator.uml#_ZgUtYG4CEe-7ucLxEYtFDw"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_3wZrEG8-Ee-TsJ3JgEISCg" name="Purchaser"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_7DJOMG8-Ee-TsJ3JgEISCg" client="_3wZrEG8-Ee-TsJ3JgEISCg" supplier="_sHo4sG4AEe-7ucLxEYtFDw"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_BTNooG9AEe-TsJ3JgEISCg" name="Head of Project Management"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_J48IUG9AEe-TsJ3JgEISCg" client="_BTNooG9AEe-TsJ3JgEISCg" supplier="_sHo4sG4AEe-7ucLxEYtFDw"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_LidD0G9AEe-TsJ3JgEISCg" name="IT Department"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_SRerIG9BEe-TsJ3JgEISCg" client="_46_PYG4AEe-7ucLxEYtFDw" supplier="_LidD0G9AEe-TsJ3JgEISCg"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_UyOwoG9BEe-TsJ3JgEISCg" client="_LidD0G9AEe-TsJ3JgEISCg" supplier="_X_A9kG4AEe-7ucLxEYtFDw"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_bqwHoG9BEe-TsJ3JgEISCg" name="Head of IT"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_gFhCwG9BEe-TsJ3JgEISCg" client="_bqwHoG9BEe-TsJ3JgEISCg" supplier="_LidD0G9AEe-TsJ3JgEISCg"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_-hPlYG9BEe-TsJ3JgEISCg" name="Maker"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_BmLWAG9CEe-TsJ3JgEISCg" client="_-nzoQG4AEe-7ucLxEYtFDw" supplier="_-hPlYG9BEe-TsJ3JgEISCg"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_DuiwsG9CEe-TsJ3JgEISCg" client="_RjWFMG4BEe-7ucLxEYtFDw" supplier="_-hPlYG9BEe-TsJ3JgEISCg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_KceBQG9CEe-TsJ3JgEISCg" client="_i2FYUG4BEe-7ucLxEYtFDw" supplier="_-hPlYG9BEe-TsJ3JgEISCg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Nmbb0G9CEe-TsJ3JgEISCg" client="_i2FYUG4BEe-7ucLxEYtFDw" supplier="_X_A9kG4AEe-7ucLxEYtFDw"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_nvrKsG9EEe-TsJ3JgEISCg" name="Mentor"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_qwyLQG9EEe-TsJ3JgEISCg" client="_nvrKsG9EEe-TsJ3JgEISCg" supplier="_-hPlYG9BEe-TsJ3JgEISCg"/>
 </uml:Package>
