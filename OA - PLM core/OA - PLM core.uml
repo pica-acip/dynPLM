@@ -5,8 +5,6 @@
   </packageImport>
   <packagedElement xmi:type="uml:Model" xmi:id="_IaT5kG4AEe-7ucLxEYtFDw" name="OA - PLM core">
     <packagedElement xmi:type="uml:Package" href="OA___PLM_core___Stakeholders.uml#_Krf5EG4AEe-7ucLxEYtFDw"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_HR08oG4CEe-7ucLxEYtFDw" name="OA - PLM core - Use Cases">
-      <packagedElement xmi:type="uml:Package" href="OA___PLM_core___Customer.uml#_KaevoG4CEe-7ucLxEYtFDw"/>
-    </packagedElement>
+    <packagedElement xmi:type="uml:Package" href="OA___PLM_core___Use_Cases.uml#_HR08oG4CEe-7ucLxEYtFDw"/>
   </packagedElement>
 </uml:Model>

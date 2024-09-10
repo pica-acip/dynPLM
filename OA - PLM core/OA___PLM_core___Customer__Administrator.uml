@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Nx0e4G4CEe-7ucLxEYtFDw" name="OA - PLM core - Customer -Administrator">
+<uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Nx0e4G4CEe-7ucLxEYtFDw" name="OA - PLM core - Customer - IT-Department - Administrator">
   <ownedRule xmi:type="uml:Constraint" xmi:id="_EMAlwG4DEe-7ucLxEYtFDw" name="Availibility" constrainedElement="_ZgUtYG4CEe-7ucLxEYtFDw">
     <specification xmi:type="uml:OpaqueExpression" xmi:id="_EMDpEG4DEe-7ucLxEYtFDw" name="Availability">
       <language>Natural language</language>

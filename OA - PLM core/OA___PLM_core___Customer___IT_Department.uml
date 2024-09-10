@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_eIt6sG9IEe-TsJ3JgEISCg" name="OA - PLM core - Customer - IT Department">
+  <packagedElement xmi:type="uml:Package" href="OA___PLM_core___Customer__Administrator.uml#_Nx0e4G4CEe-7ucLxEYtFDw"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_815ZsG9IEe-TsJ3JgEISCg" name="OA - PLM core - Customer - IT-Department - Head of IT"/>
+</uml:Package>
